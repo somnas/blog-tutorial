@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import { PostCard, Categories, PostWidget } from '../components';
 
 const posts = [
     { title: 'React Testing', excerpt: 'Learn React Testing' },
@@ -23,7 +24,7 @@ export default function Home() {
                 </div>
                 <div className="lg:col-span-4 col-span-1">
                     <div className="lg:sticky relative top-8">
-                        
+
                     </div>
                 </div>
             </div>
