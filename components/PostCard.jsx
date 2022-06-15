@@ -1,7 +1,13 @@
 import React from 'react';
 
-export default function PostCard() {
+export default function PostCard({ post }) {
     return (
-        <div>PostCard</div>
+        <div>
+            <h3>
+                {post.title}
+            </h3>
+            <p>{post.excerpt}</p>
+            <br />
+        </div>
     )
 }
